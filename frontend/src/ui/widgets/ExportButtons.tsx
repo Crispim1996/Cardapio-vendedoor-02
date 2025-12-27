@@ -1,5 +1,5 @@
 import React from "react";
-import Papa from "papaparse";
+import * as Papa from "papaparse";
 import jsPDF from "jspdf";
 // @ts-expect-error - no types bundled
 import autoTable from "jspdf-autotable";
