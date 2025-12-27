@@ -1,7 +1,7 @@
 import React from "react";
 import * as Papa from "papaparse";
 import jsPDF from "jspdf";
-// @ts-expect-error - no types bundled
+// @ts-ignore - no types bundled
 import autoTable from "jspdf-autotable";
 import type { IngredientItem, PricingInput, PricingResult, Product, Settings } from "../../lib/types";
 import { brl, pct } from "../../lib/money";
